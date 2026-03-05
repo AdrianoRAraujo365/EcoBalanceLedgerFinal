@@ -1,0 +1,138 @@
+###Projeto EcoBalanceLEdger
+##script versao 002
+                <!-- Mapa IoT -->
+                <div class="mt-8 glass rounded-2xl p-6 border border-emerald-500/20">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-lg font-semibold text-emerald-400">Geolocalização de Ativos e Resíduos (IoT)</h3>
+                        <div class="flex items-center gap-4 text-sm">
+                            <div class="flex items-center gap-2">
+                                <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                                <span class="text-gray-400">Data Center</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-3 h-3 rounded-full bg-blue-500"></div>
+                                <span class="text-gray-400">Unidade Industrial</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                <span class="text-gray-400">Ponto de Reciclagem</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="map"></div>
+                </div>
+
+                <!-- Análise Preditiva -->
+                <div class="mt-8 glass rounded-2xl p-6 border border-purple-500/20">
+                    <h3 class="text-lg font-semibold text-purple-400 mb-4">Previsão de Resiliência Climática (IFRS S2)</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="p-4 bg-dark-light rounded-lg border border-gray-700">
+                            <div class="text-sm text-gray-400 mb-2">Cenário Otimista (2030)</div>
+                            <div class="text-2xl font-bold text-emerald-400 mb-1">92%</div>
+                            <div class="text-xs text-gray-500">Conformidade ESG projetada</div>
+                            <div class="mt-3 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-emerald-500 w-[92%]"></div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-dark-light rounded-lg border border-gray-700">
+                            <div class="text-sm text-gray-400 mb-2">Cenário Base (2030)</div>
+                            <div class="text-2xl font-bold text-blue-400 mb-1">78%</div>
+                            <div class="text-xs text-gray-500">Manutenção de tendências atuais</div>
+                            <div class="mt-3 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-blue-500 w-[78%]"></div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-dark-light rounded-lg border border-gray-700">
+                            <div class="text-sm text-gray-400 mb-2">Cenário de Risco (2030)</div>
+                            <div class="text-2xl font-bold text-yellow-400 mb-1">65%</div>
+                            <div class="text-xs text-gray-500">Sem investimentos adicionais</div>
+                            <div class="mt-3 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                <div class="h-full bg-yellow-500 w-[65%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="py-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-emerald-900/40 via-purple-900/40 to-emerald-900/40"></div>
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <h2 class="text-4xl font-bold mb-6">Pronto para o Mercado de Capitais</h2>
+                <p class="text-xl text-gray-400 mb-8">
+                    O EcoBalance Ledger está dockerizado e pronto para implementação em larga escala. 
+                    Unimos contabilidade de custos, TI Verde e ciência econômica em uma única interface.
+                </p>
+                
+                <div class="flex flex-wrap justify-center gap-4 mb-12">
+                    <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400">
+                        <i class="fab fa-docker"></i>
+                        <span class="text-sm">Docker Ready</span>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400">
+                        <i class="fas fa-database"></i>
+                        <span class="text-sm">MySQL 8.0</span>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400">
+                        <i class="fas fa-link"></i>
+                        <span class="text-sm">Blockchain</span>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-400">
+                        <i class="fas fa-bell"></i>
+                        <span class="text-sm">Twilio Alerts</span>
+                    </div>
+                </div>
+
+                <div class="glass rounded-2xl p-8 border border-emerald-500/20 inline-block">
+                    <div class="text-sm text-gray-400 mb-4">Repositório Docker/GitHub</div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-24 h-24 bg-white rounded-lg p-2">
+                            <!-- QR Code placeholder -->
+                            <div class="w-full h-full bg-gradient-to-br from-emerald-500 to-blue-500 rounded flex items-center justify-center text-white text-xs font-mono">
+                                QR CODE
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <div class="text-emerald-400 font-mono text-sm mb-1">git clone</div>
+                            <div class="text-white font-mono text-xs bg-dark-light px-3 py-2 rounded border border-gray-700">
+                                github.com/ecobalance/ledger
+                            </div>
+                            <div class="mt-2 text-xs text-gray-500">
+                                <i class="fas fa-download mr-1"></i>
+                                2.5k downloads | Última versão: v2.0.25
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-gray-800 bg-dark-light/50 backdrop-blur-lg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="grid md:grid-cols-4 gap-8 mb-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <div class="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-leaf text-white text-sm"></i>
+                            </div>
+                            <span class="font-bold text-lg">EcoBalance Ledger</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-4">
+                            Otimização Insumo-Produto com Transparência Blockchain para Governança ESG.
+                        </p>
+                        <div class="flex gap-4">
+                            <a href="#" class="text-gray-400 hover:text-emerald-400 transition"><i class="fab fa-github"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-emerald-400 transition"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-emerald-400 transition"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold mb-4 text-emerald-400">Produto</h4>
+                        <ul class="space-y-2 text-sm text-gray-400">
+                            <li><a href="#matriz" class="hover:text-white transition">Matriz Leontief</a></li>
+                            <li><a href="#blockchain" class="hover:text-white transition">Blockchain</a></li>
+                            <li><a href="#simulador" class="hover:text-white transition">Simulador ROI</a></li>
+                            <li><a href

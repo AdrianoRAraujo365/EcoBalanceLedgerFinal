@@ -1,0 +1,16 @@
+/ecobalance-project
+│
+├── /backend
+│   ├── server.js
+│   ├── package.json
+│   └── leontief_calc.py (Script Python de cálculo)
+│
+├── /frontend
+│   ├── index.html
+│   └── /assets (js, css, imagens)
+│
+├── db
+│   └── schema.sql (O arquivo que criamos anteriormente)
+│
+├── Dockerfile
+└── docker-compose.yml

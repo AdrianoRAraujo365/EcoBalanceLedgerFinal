@@ -1,0 +1,9 @@
+##.env
+TWILIO_SID=seu_sid_aqui
+TWILIO_TOKEN=seu_token_aqui
+GOOGLE_MAPS_KEY=sua_chave_aqui
+
+##.bash
+docker-compose up --build -d
+##.bash docker-compose
+docker logs -f ecobalance_app
